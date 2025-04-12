@@ -4,7 +4,7 @@ import pandas as pd
 from datetime import datetime
 
 # Initialize Google Maps client with your API key
-gmaps = googlemaps.Client(key='AIzaSyDXRT50QvC6eu54VSj2mcaVF4VFUeoQx5Y')
+gmaps = googlemaps.Client(key='')
 
 # Get user input for country, city, and source/destination
 country = input("Enter your current country: ")

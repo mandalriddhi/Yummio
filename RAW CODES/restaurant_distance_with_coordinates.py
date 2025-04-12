@@ -6,7 +6,7 @@ from googlemaps.convert import decode_polyline
 from geopy.distance import geodesic
 
 # Initialize Google Maps client
-API_KEY = 'AIzaSyDXRT50QvC6eu54VSj2mcaVF4VFUeoQx5Y'  # Replace with actual API key
+API_KEY = ''  # Replace with actual API key
 gmaps = googlemaps.Client(key=API_KEY)
 
 # User input for location details

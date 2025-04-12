@@ -21,7 +21,7 @@ from geopy.distance import geodesic
 import time
 import atexit
 
-gmaps = googlemaps.Client(key='AIzaSyDXRT50QvC6eu54VSj2mcaVF4VFUeoQx5Y')
+gmaps = googlemaps.Client(key='')
 
 # Set up logging
 logging.basicConfig(
@@ -571,7 +571,7 @@ def find_restaurants(request):
                 
                 for photo in photos:
                   try:
-                    photo_url = f"https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference={photo['photo_reference']}&key=AIzaSyDXRT50QvC6eu54VSj2mcaVF4VFUeoQx5Y"
+                    photo_url = f"https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference={photo['photo_reference']}&key="
                     photo_urls.append(photo_url)
                   except Exception as e:
                     logger.error(f"Error generating photo URL: {str(e)}")

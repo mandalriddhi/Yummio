@@ -9,7 +9,7 @@ import pandas as pd
 import random
 
 # Initialize Google Maps client with your API key
-gmaps = googlemaps.Client(key='AIzaSyDXRT50QvC6eu54VSj2mcaVF4VFUeoQx5Y')  # Replace with your actual API key
+gmaps = googlemaps.Client(key='')  # Replace with your actual API key
 
 # Get user input for source and destination
 source = input("Enter the source address: ")
